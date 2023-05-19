@@ -1,0 +1,16 @@
+python --version
+pip install pipenv   # install pipenv package
+pipenv shell   # Activate virtual environment
+pipenv --venv   # to view the current virtual environment
+pip install django   # Install Django package
+django-admin   # check django-admin commands
+
+django-admin startproject adminpanel_project .    # create django project (.) it will not create another folder
+
+python manage.py runserver    # Run project
+python manage.py runserver 8001  # change port no.
+
+
+pip install -r requirements.txt
+fontawesomefree==version_number
+
